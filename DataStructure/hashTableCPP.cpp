@@ -3,7 +3,6 @@
 using namespace std;
 
 
-
 class HashTable {
 public:
   HashTable(int size) {
@@ -37,7 +36,7 @@ int main() {
   hashTable.insert(10);
   hashTable.insert(7);
   hashTable.insert(13);
-  hashTable.insert(29);
+  hashTable.insert(38);
 
   for (int i = 0; i < 9; i++) {
     if (hashTable.table[i] != -1) {
